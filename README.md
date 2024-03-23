@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Jarvis Voice Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jarvis is a voice assistant built using Alan AI. It aims to provide various functionalities such as finding the capital of countries, retrieving time, and fetching weather information based on user queries. This project is a work in progress, with additional features like news retrieval currently under development.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Country Capital Finder:** Jarvis can find the capital of countries.
+- **Time Retrieval:** Get the current time in different locations.
+- **Weather Information:** Obtain weather updates for specified locations.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```
+    git clone https://github.com/your-username/jarvis-voice-assistant.git
+    ```
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```
+    cd jarvis-voice-assistant
+    ```
 
-### `npm run build`
+3. Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Run the project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```
+    npm start
+    ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To interact with Jarvis, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Visit the deployed project URL or run it locally.
+2. Trigger Jarvis by saying "Hey Jarvis" followed by your query.
+3. You can ask for the capital of a country, current time, or weather information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Roadmap
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Future updates for Jarvis may include:
 
-## Learn More
+- Integration of news retrieval feature.
+- Enhancement of user interface design.
+- Addition of more voice commands for extended functionality.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Special thanks to Alan AI for providing the voice AI platform.
